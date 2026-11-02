@@ -1,1 +1,67 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Place your order | Newtry Biscuits</title><link rel="stylesheet" href="css/style.css"></head><body data-page="order" data-exec="https://script.google.com/macros/s/AKfycbwT_rGQ-wGRt0mUO_uFS7iKTsntk_AYM6a6fI8vwpo_bOZaE2hT-_rEdZs4KBCRXkQy/exec"><header><a href="index.html">Newtry Biscuits</a></header><main><section class="card"><h1>Place your order</h1><form id='orderForm'><input name='name' placeholder='Your name' required autocomplete='name'><input name='email' type='email' placeholder='Email' required autocomplete='email'><input name='contact' type='tel' placeholder='Contact number' required autocomplete='tel'><textarea name='address' placeholder='Delivery address' rows='2' required></textarea><select name='product' required><option value=''>Choose a biscuit</option><option>Wheat, Jaggery &amp; Nuts</option><option>Ragi &amp; Millet</option></select><input name='quantity' type='number' min='1' value='1' required><button class='btn' type='submit'>Place order</button></form><div id='thanks' hidden><h2 id='thanksName'></h2><p class='slogan'>MAKE YOUR MOMENT BLOSSOM WITH NEWTRY</p></div><div class="actions" hidden><a class='btn' href='index.html'>Back to home</a></div></section><div class="stage"><div class="carvo" data-say="I am Carvo." tabindex="0" role="button" aria-label="Touch Carvo"><div class="bubble" hidden></div><img src="img/carvo.png" alt="Carvo the biscuit mascot"><i class="bis"></i></div><p class="tap">Touch Carvo</p></div></main><footer>Carvo universe</footer><script src="js/app.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Newtry Biscuits</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>YOUR DETAILS</h1>
+    </header>
+
+    <main>
+
+        <p>Product: Ragi Flour with Butter Biscuit</p>
+
+        <form action="#" method="post">
+
+            <p>
+                <label for="name">Name:</label><br>
+                <input id="name" name="name" type="text"
+                       autocomplete="name" required>
+            </p>
+
+            <p>
+                <label for="email">Email:</label><br>
+                <input id="email" name="email" type="email"
+                       autocomplete="email" required>
+            </p>
+
+            <p>
+                <label for="contact">Contact:</label><br>
+                <input id="contact" name="contact" type="tel"
+                       autocomplete="tel" required>
+            </p>
+
+            <p>
+                <label for="address">Delivery address:</label><br>
+                <textarea id="address" name="address"
+                          rows="4" required></textarea>
+            </p>
+
+            <p>
+                <label for="quantity">Quantity (packs):</label><br>
+                <input id="quantity" name="quantity" type="number"
+                       min="1" max="100" value="1" required>
+            </p>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+        <p>
+            <strong>MAKE YOUR MOMENT BLOSSOM WITH NEWTRY</strong>
+        </p>
+
+        <p>
+            <a href="products.html">Back to Products</a>
+        </p>
+
+    </main>
+
+</body>
+</html>
